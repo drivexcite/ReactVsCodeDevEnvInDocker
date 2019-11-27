@@ -1,3 +1,3 @@
-function foo() {
-  const bar = "foo";
-}
+// function foo() {
+//   const bar = "foo";
+// }
