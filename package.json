@@ -1,0 +1,23 @@
+{
+  "name": "hwadmin",
+  "version": "1.0.0",
+  "description": "React front end for HW Admin",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivexcite/ReactVsCodeDevEnvInDocker.git"
+  },
+  "author": "Tona Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drivexcite/ReactVsCodeDevEnvInDocker/issues"
+  },
+  "homepage": "https://github.com/drivexcite/ReactVsCodeDevEnvInDocker#readme"
+}
