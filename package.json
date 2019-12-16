@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "React front end for HW Admin",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-config-prettier": "^6.7.0",
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
